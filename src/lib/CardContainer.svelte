@@ -46,6 +46,7 @@
       display: flex;
       flex-flow: column nowrap;
       justify-content: space-between;
+      align-items: center;
       overflow-x: hidden;
     }
   }

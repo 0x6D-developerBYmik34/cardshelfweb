@@ -13,7 +13,7 @@
         <h2>{productInfo.productTitle}</h2>
         <p>{productInfo.description}</p>
         <h2><b>{productInfo.price} &#8381</b></h2>
-        <button style="text-align: center;">Смотреть в приложении</button>
+        <button style="text-align: center; margin-top: 5px;">Смотреть в приложении</button>
       </div>
   </div>
 </div>

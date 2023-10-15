@@ -49,9 +49,8 @@
     </div>
   </div>
   <div class="product-info">
-    <!-- <div class="stars"></div> -->
     <h3 class="product-title">{productInfo.productTitle}</h3>
-    <div class="price">&#8381; {productInfo.price}</div>
+    <div class="price">{productInfo.price} &#8381;</div>
   </div>
 </div>
 
@@ -156,14 +155,6 @@
   }
   .product-info {
     padding-top: 15px;
-  }
-  .stars {
-    font-size: 14px;
-    /* font-family: FontAwesome; */
-  }
-  .stars:before {
-    content: "\f005\f005\f005\f005\f123";
-    color: #F2453E;
   }
   .product-title {
     font-weight: normal;

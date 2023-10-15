@@ -2,7 +2,7 @@
 
 <nav>
   <ul>
-    <li><a href="/">Cardshelf</a></li>
+    <li><a href="/">Cardshelf by <i>∥</i></a></li>
   </ul>
 </nav>
 
@@ -27,7 +27,7 @@
   }
 
   li a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     display: block;
     color: white;
     text-align: center;
