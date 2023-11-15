@@ -41,10 +41,10 @@
 <div class="border">
   <div class="wrap">
     <div class="product-wrap">
-      <a href="" on:click={preventHandler}><img alt="{alterTextForImg}" src="{productInfo.imgSrc}"></a>
+      <a href="/" on:click={preventHandler}><img alt="{alterTextForImg}" src="{productInfo.imgSrc}"></a>
     </div>
     <div class="loop-action">
-      <a href="" class="add-to-cart" on:click={handler}>Быстрый просмотр</a>
+      <a href="/" class="add-to-cart" on:click={handler}>Быстрый просмотр</a>
       <!-- <a href="" class="loop-add-to-cart">В корзину</a> -->
     </div>
   </div>

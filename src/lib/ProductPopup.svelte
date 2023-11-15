@@ -2,18 +2,23 @@
   import { alterTextForImg } from "./utils"
 
   export let handler
-  export let productInfo;
+  export let productInfo
+
+  const toApplicationButtonHadler = (e) => {
+    location.href = "unitydl://paralel?" + productInfo.id
+    e.preventDefault()
+  }
 </script>
 
 <div class="b-popup">
   <div class="b-popup-content">
       <img alt="{alterTextForImg}" src="{productInfo.imgSrc}">
       <div class="content-description">
-        <a href="" class="close-button" on:click={handler}>&times;</a>
+        <a href="/" class="close-button" on:click={handler}>&times;</a>
         <h2>{productInfo.productTitle}</h2>
         <p>{productInfo.description}</p>
         <h2><b>{productInfo.price} &#8381</b></h2>
-        <button style="text-align: center; margin-top: 5px;">Смотреть в приложении</button>
+        <button on:click={toApplicationButtonHadler} class="to-app-button">Смотреть в приложении</button>
       </div>
   </div>
 </div>
@@ -129,5 +134,10 @@
       height: fit-content;
       overflow: scroll;
     } */
+  }
+
+  .to-app-button {
+    text-align: center; 
+    margin-top: 5px;
   }
 </style>
