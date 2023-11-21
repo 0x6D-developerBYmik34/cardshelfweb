@@ -9,7 +9,8 @@
     productTitle: "Хер не собачий",
     description: "бла бла бла бла бла бла бла бла бла",
     price: 1999,
-    id: 300
+    id: 300,
+    model: ""
   }
 
   const getProductImgUrl = "https://parallel.computernetthings.ru/api/v1/get_product_image"

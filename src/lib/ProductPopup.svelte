@@ -5,7 +5,7 @@
   export let productInfo
 
   const toApplicationButtonHadler = (e) => {
-    location.href = "unitydl://paralel?" + productInfo.id
+    location.href = "unitydl://paralel?" + productInfo.model
     e.preventDefault()
   }
 </script>

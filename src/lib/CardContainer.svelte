@@ -16,7 +16,8 @@
             productTitle: v.title,
             description: v.description,
             price: v.cost,
-            id: v.id
+            id: v.id,
+            model: v.model
           }
         })
       })
